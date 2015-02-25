@@ -1,6 +1,6 @@
 package com.ceino.main;
 
-public class A extends B implements Test {
+public class A  implements Test {
 	public void name(){
 		System.out.println("My name is marita");
 	}
@@ -19,7 +19,7 @@ public class A extends B implements Test {
 		// TODO Auto-generated method stub
 		A a=new A();
 		a.name();
-		a.fullName();
+	//	a.fullName();
 		a.job();
 		a.place();
 
