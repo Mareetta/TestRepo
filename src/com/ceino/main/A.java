@@ -8,13 +8,22 @@ public class A extends B implements Test {
 		System.out.println("I'm an intern");
 	}
 
+	
+	@Override
+	public void place() {
+		// TODO Auto-generated method stub
+		System.out.println("Im from ceino");
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		A a=new A();
 		a.name();
-		a.job();
 		a.fullName();
+		a.job();
+		a.place();
 
 	}
+	
 
 }
